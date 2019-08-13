@@ -32,10 +32,10 @@ module.exports = {
         'window.jQuery': 'jquery'
     }),
     new MiniCssExtractPlugin({
-        fileman: 'style.css'
+        filename: 'style.css'
     }),
     new webpackRTLPlugin({
-        filename: 'style.css'
+        filename: 'style-rtl.css'
     })
   ]
 };
